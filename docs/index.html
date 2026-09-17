@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ATS Resume Score Analyzer</title>
+<meta name="description" content="Transparent 100-point ATS resume scoring for freshers and job seekers. Runs 100% in your browser.">
+<link rel="stylesheet" href="./styles.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mammoth@1.12.3/mammoth.browser.min.js"></script>
+<script src="./ats-core.js"></script>
+<script src="./app.js" defer></script>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <div style="font-size:2.4rem">📄</div>
+    <h1>ATS Resume Score Analyzer</h1>
+    <p>Transparent 100-point scoring for freshers and job seekers.</p>
+  </div>
+  <div class="static-note">🌐 <strong>Static demo:</strong> runs 100% in your browser — no uploads leave your device. History is not saved. For the full app with saved history, run the Next.js + Express version locally.</div>
+  <div class="steps" id="steps"></div>
+  <div id="error"></div>
+  <div id="stage1"></div>
+  <div id="stage2" style="display:none"></div>
+  <div id="stage3" style="display:none"></div>
+  <div id="stage4" style="display:none"></div>
+  <div id="stage5" style="display:none"></div>
+</div>
+<footer>ATS Score is an estimate based on scoring criteria. Weights: Skills 30 · Experience 20 · Structure 15 · Keywords 15 · Education 10 · Formatting 10.</footer>
+</body>
+</html>
