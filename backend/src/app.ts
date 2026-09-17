@@ -5,6 +5,7 @@ import authRoutes from './routes/auth.routes';
 import candidateRoutes from './routes/candidates.routes';
 import inviteRoutes from './routes/invite.routes';
 import sessionRoutes from './routes/sessions.routes';
+import atsRoutes from './routes/ats.routes';
 
 const app = express();
 
@@ -19,5 +20,6 @@ app.use('/api/auth', authRoutes);
 app.use('/api/candidates', candidateRoutes);
 app.use('/api/invite', inviteRoutes);
 app.use('/api/sessions', sessionRoutes);
+app.use('/api/ats', atsRoutes);
 
 export default app;

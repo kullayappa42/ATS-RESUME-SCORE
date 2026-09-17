@@ -106,3 +106,26 @@ model ProctoringEvent {
   snapshot_url         String?
   createdAt            DateTime         @default(now())
 }
+
+model AtsAnalysis {
+  id              String   @id @default(uuid())
+  fullName        String
+  experienceLevel String
+  careerId        String
+  careerTitle     String
+  fileName        String
+  fileSize        Int
+  mimeType        String
+  totalScore      Int
+  status          String   // GOOD, MEDIUM, LOW
+  categories      String   // JSON
+  matchedSkills   String   // JSON array
+  missingSkills   String   // JSON array
+  keywordsFound   String   // JSON array
+  keywordsMissing String   // JSON array
+  sections        String   // JSON array
+  suggestions     String   // JSON array
+  jdMatchScore    Int      @default(0)
+  resumeExcerpt   String?  // stored ONLY with explicit user consent
+  createdAt       DateTime @default(now())
+}

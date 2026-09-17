@@ -1,0 +1,41 @@
+John Doe - Python Full Stack Developer (Fresher)
+Email: john.doe@example.com | Phone: +91 98765 43210 | GitHub: github.com/johndoe
+Location: Hyderabad, India
+
+PROFESSIONAL SUMMARY
+Motivated fresher targeting Python Full Stack roles with hands-on academic projects
+using Python, Django, REST APIs, HTML, CSS, JavaScript, SQL and Git.
+
+TECHNICAL SKILLS
+Languages: Python, JavaScript, SQL, HTML, CSS
+Frameworks: Django, Flask, React (basics)
+Databases: MySQL, PostgreSQL, SQLite
+Tools: Git, GitHub, REST API, Docker (basics), Postman, VS Code
+Concepts: OOP, Data Structures, Agile, Testing
+
+EDUCATION
+B.Tech, Computer Science and Engineering - JNTU Hyderabad (2022 - 2026), CGPA: 8.5/10
+
+PROJECTS
+1. Employee Management System | Python, Django, MySQL, HTML, CSS, JavaScript
+- Developed an employee management system using Python and MySQL to manage
+  employee records and reduce manual data handling.
+- Built REST API endpoints for CRUD operations; improved record retrieval time by 30%.
+- Deployed a demo build and documented setup on GitHub.
+2. Portfolio Website | HTML, CSS, JavaScript, React
+- Created a responsive portfolio website with React components.
+- Implemented contact form and project gallery; used Git and GitHub for version control.
+
+EXPERIENCE
+Web Development Intern - ABC Tech Solutions (Jun 2024 - Aug 2024)
+- Worked on internal dashboard pages using HTML, CSS and JavaScript.
+- Contributed bug fixes and wrote basic API integration code.
+- Achieved a 15% reduction in page load time by optimising images.
+
+CERTIFICATIONS
+- Python for Everybody - Coursera (2024)
+- Web Development Bootcamp - Udemy (2023)
+
+KEYWORDS
+Python Django Flask REST API HTML CSS JavaScript SQL MySQL PostgreSQL Git GitHub
+OOP API Docker AWS Testing Agile
